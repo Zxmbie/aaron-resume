@@ -1,17 +1,41 @@
+body {
+  font-family: "Arial", "Helvetica", "sans-serif";
+  width: 300px;
+  margin: 10px auto;
+  color: #797979;
+}
+
 h1 {
   color: #2C96DD;
   border-bottom: 1px dashed #2C96DD;
   text-transform: uppercase;
   font-weight: lighter;
+  font-size: 20px;
 }
 
-body {
-  font-family: "Arial", "Helvetica", "sans-serif";
-  margin: 50px auto;
-  width: 320px;
-  color: #797979;
+section {
+  margin-bottom: 50px;
 }
+
 
 .date {
   color: #C3C3C3;
+}
+
+#education p {
+  margin: 0;
+}
+
+@media (min-width: 768px) {
+  body {
+    width: 600px;
+    margin: 50px auto;
+  }
+}
+
+@media print {
+  body {
+    width: 1000px;
+    margin: 50px auto;
+  }
 }
